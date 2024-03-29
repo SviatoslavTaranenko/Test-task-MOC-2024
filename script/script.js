@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             descriptionContainer.textContent = initialDescription;
             const fullDescription = product.description;
 
-            price.textContent = `Price: ${product.price}`;
+            price.textContent = `Price: ${product.price} $`;
             button.addEventListener('click', () => {
                 // Додайте код для обробки натискання кнопки "Купити" тут
                 console.log(`Buy ${product.name}`);
